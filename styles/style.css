@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../src/fonts/Roboto-Black.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../src/fonts/Roboto-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto-Italic";
+    src: url("../src/fonts/Roboto-Italic.ttf") format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Roboto-Regular", Arial, sans-serif;
+    /*text-align: center;*/
+    background-color: rgba(224, 221, 209, 0.363);
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                not supported by any browser */
+
+    padding: 0;
+    margin: 0;
+}
+div {
+    text-align: center;
+    }
+    button {
+    box-sizing: border-box;
+    width: 30%;
+    border:2px solid rgb(94, 35, 45);
+    padding :8px;
+    font-size:18px ;
+    }
+    .game{
+     display:none;   
+    }
+    .resalut{
+     display:none;   
+    }
+    .start-button{
+        color:rgba(49, 18, 18, 0.705);
+        background-color: #d3af6280;
+        border-radius: 11px;
+        border:2px solid rgba(44, 28, 30, 0.199);
+        transition: background-color 0.5s,transform 0.5s,box-shadow 0.5s,color 0.5s;
+    }
+    .start-button:hover{
+        color:black;
+        background-color: #5f461180;
+        border-radius: 11px;
+        transform:translateY(-3px);
+        box-shadow: 7px 5px 8px 0px #3b2417;
+        cursor: pointer;
+    }
+    body {
+        background-color: rgba(224, 221, 209, 0.363);
+    }
+    .start h1 {
+        color:rgba(78, 63, 57, 0.884)
+    }
